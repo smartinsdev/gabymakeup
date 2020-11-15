@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.fade-in-y {
+    animation: fadeInY 3s ease;
+}
+
+@keyframes fadeInY {
+    0% {  opacity: 0; transform: translateY(30%); }
+    100% { opacity: 1; transform: translateY(0%)}
+}
+
+.fade-in-x {
+    animation: fadeInX 3s ease;
+}
+
+@keyframes fadeInX {
+    0% {  opacity: 0; transform: translateX(30%); }
+    100% { opacity: 1; transform: translateX(0%)}
+}
