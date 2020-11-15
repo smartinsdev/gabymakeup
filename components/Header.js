@@ -12,9 +12,8 @@ const Header = () => {
                 {/* Logo */}
                 <div className="transition duration-500 ease-in-out hover:text-purple-600 transform hover:scale-110">
                     <Link href="/">
-                        <a className="text-xl font-bold  hover:text-purple-600 text-black flex">
+                        <a className="text-xl font-bold  hover:text-purple-600 text-black">
                             <img src="cosmetics.svg" className="w-8 mr-3 text-gray-200 hover:border-purple-600" />
-                            <p>Gaby Makeup</p>
                         </a>
                     </Link>
                 </div>
