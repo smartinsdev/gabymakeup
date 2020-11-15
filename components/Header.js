@@ -10,11 +10,11 @@ const Header = () => {
         <header className="bg-gray-100">
             <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:flex-no-wrap md:p-8">
                 {/* Logo */}
-                <div className="transition duration-500 ease-in-out hover:text-purple-600 transform hover:scale-110 flex items-center">
+                <div className="transition duration-500 ease-in-out hover:text-purple-600 transform hover:scale-110">
                     <Link href="/">
                         <a className="text-xl font-bold  hover:text-purple-600 text-black flex">
-                        <img src="cosmetics.svg" className="w-8 mr-3 text-gray-200 hover:border-purple-600" />{' '}
-                            Gaby Makeup
+                            <img src="cosmetics.svg" className="w-8 mr-3 text-gray-200 hover:border-purple-600" />
+                            <p>Gaby Makeup</p>
                         </a>
                     </Link>
                 </div>
